@@ -1,0 +1,190 @@
+/**
+ * SmartSite Optimizer Admin Styles
+ */
+
+.sso-dashboard {
+	max-width: 1400px;
+}
+
+.sso-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+	padding: 20px;
+	margin: 20px 0;
+	border-radius: 8px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.sso-logo h2 {
+	margin: 0 0 5px 0;
+	font-size: 24px;
+	color: #1d2327;
+}
+
+.sso-logo p {
+	margin: 0;
+	color: #646970;
+}
+
+.sso-actions {
+	display: flex;
+	gap: 10px;
+}
+
+.sso-metrics-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 20px;
+	margin: 20px 0;
+}
+
+.sso-metric-card {
+	background: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.sso-metric-icon {
+	font-size: 40px;
+	color: #2271b1;
+}
+
+.sso-metric-content h3 {
+	margin: 0 0 5px 0;
+	font-size: 14px;
+	color: #646970;
+	font-weight: 500;
+}
+
+.sso-metric-value {
+	margin: 0;
+	font-size: 32px;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.sso-metric-description {
+	margin: 5px 0 0 0;
+	font-size: 12px;
+	color: #646970;
+}
+
+.sso-charts {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 20px;
+	margin: 20px 0;
+}
+
+.sso-chart-container {
+	background: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.sso-chart-container h3 {
+	margin: 0 0 20px 0;
+	font-size: 16px;
+	color: #1d2327;
+}
+
+.sso-features-overview {
+	background: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+	margin: 20px 0;
+}
+
+.sso-features-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 15px;
+	margin-top: 15px;
+}
+
+.sso-feature-card {
+	padding: 15px;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.sso-feature-card .dashicons {
+	font-size: 40px;
+	color: #2271b1;
+	margin-bottom: 10px;
+}
+
+.sso-feature-card h4 {
+	margin: 10px 0 5px 0;
+	font-size: 14px;
+}
+
+.sso-feature-card p {
+	margin: 0;
+	font-size: 12px;
+	color: #646970;
+}
+
+.sso-vitals-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 15px;
+	margin: 20px 0;
+}
+
+.sso-vital-card {
+	background: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+	text-align: center;
+}
+
+.sso-vital-card h3 {
+	margin: 0 0 10px 0;
+	font-size: 14px;
+	color: #646970;
+}
+
+.sso-vital-value {
+	margin: 0;
+	font-size: 36px;
+	font-weight: 600;
+	color: #2271b1;
+}
+
+.sso-vital-label {
+	margin: 5px 0 0 0;
+	font-size: 12px;
+	color: #646970;
+}
+
+.sso-cache-actions,
+.sso-bulk-optimize {
+	background: #fff;
+	padding: 20px;
+	margin: 20px 0;
+	border-radius: 8px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.sso-analytics-filters {
+	margin: 20px 0;
+}
+
+.sso-pages-table {
+	background: #fff;
+	padding: 20px;
+	margin: 20px 0;
+	border-radius: 8px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,28 @@
+# Dependencies
+/node_modules/
+/vendor/
+
+# Build files
+/build/
+/dist/
+
+# Environment
+/.env
+*.log
+
+# System
+.DS_Store
+Thumbs.db
+
+# WordPress
+/wp-config.php
+/.htaccess
+
+# IDE
+/.idea/
+/.vscode/
+*.swp
+
+# Cache
+*.tmp
+*.temp
